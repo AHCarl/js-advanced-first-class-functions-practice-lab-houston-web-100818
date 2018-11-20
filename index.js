@@ -29,3 +29,8 @@ function totalRevenue(drivers) {
   let newRay = drivers.slice().map(driver => driver.revenue)
   return newRay.reduce((acc, val) => acc + val)
 }
+
+function averageRevenue(drivers) {
+  let newRay = drivers.slice().map(driver => driver.revenue)
+  return totalRevenue(drivers)/drivers.length
+}
