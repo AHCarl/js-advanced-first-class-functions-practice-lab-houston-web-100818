@@ -26,5 +26,6 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers) {
-  let newRay = drivers.slice().map()
+  let newRay = drivers.slice().map(driver => driver.revenue)
+  return newRay.reduce()
 }
