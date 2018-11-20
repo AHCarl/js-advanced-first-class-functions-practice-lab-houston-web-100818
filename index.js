@@ -26,5 +26,7 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers) {
-  let acc = 0;
+  drivfunction(driver){
+    return driver.
+  })
 }
